@@ -13,7 +13,7 @@ LIPRAS: <a href="https://www.mathworks.com/matlabcentral/fileexchange/183300-lin
 Giovanni Esteves, Klarissa Ramos, Chris M. Fancher, and Jacob L. Jones
 
 <p>Contact Info<br>
-<b>Email:</b> gesteve@ncsu.edu or lipras17@gmail.com<br>
+<b>Email:</b> lipras17@gmail.com<br>
 <i> Please include "LIPRAS" in subject </i></p>
 
 <b> History: </b>The backbone of the code was originally created by Jacob L. Jones when he was a post doc back in 2006-2007. In 2014, Chris M. Fancher continued development of the code created by Jacob and successfully turned it into a class file within MATLAB. Giovanni Esteves further built upon Chris's version by polishing the code and adding features to enhances its feasibility to new users. Finally, in 2016 Klarissa Ramos joined the Jones Research group and jointly with Giovanni they restructured the class file into a graphical user interface (GUI) which is now known as LIPRAS.
