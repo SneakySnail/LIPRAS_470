@@ -1,9 +1,13 @@
 <p align="center">
-<img src="https://github.com/SneakySnail/LIPRAS/blob/master/Logo/Logo_R3.png?raw=true" width="700">
+<img src="Logo/Logo_R3.png" alt="LIPRAS logo" width="600">
 </p>
   
 # Line-Profile Analysis Software (LIPRAS)
 
+For MATLAB 2016b-2023b, see installation notes.
+
+Newer version available for MATLAB 2024b and above that uses App Designer,
+LIPRAS: <a href="https://www.mathworks.com/matlabcentral/fileexchange/183300-line-profile-analysis-software-lipras">MATLAB File Exchange</a>
 
 ## Authors
 Giovanni Esteves, Klarissa Ramos, Chris M. Fancher, and Jacob L. Jones
@@ -21,7 +25,7 @@ Giovanni Esteves, Klarissa Ramos, Chris M. Fancher, and Jacob L. Jones
 
 ## Features in LIPRAS
 <b> Why use LIPRAS?</b> You can use LIPRAS to visualize and analyze diffraction data.
-
+<ul>
 <li> Quickly extract relevant peak information about the <b>position, full width at half maximum (FWHM), and intensity</b> </li>
 <li> Conduct Bayesian inference on least-squares results using a Markov Chain Monte Carlo algorithm</li>
 <li> Customize the background fit by either treating it separately (Polynomial or Spline) or including it in the least-squares routine (Polynomial only)</li>
@@ -36,7 +40,7 @@ Giovanni Esteves, Klarissa Ramos, Chris M. Fancher, and Jacob L. Jones
 <li> Resulting coefficients values can be viewed with file number </li>
 <li> Parameters files are written to recreate fits and detail what fit parameters and profile shape functions were used</li>
 <li> Accepts the following <b>file types: .xy, .xye, .xls, .xlsx, .fxye, .xrdml, .chi, .csv (Windows Only)</b></li>
-
+</ul>
 
 ## Installation
 **MATLAB Users**
@@ -45,6 +49,9 @@ Giovanni Esteves, Klarissa Ramos, Chris M. Fancher, and Jacob L. Jones
 You can start using LIPRAS in MATLAB after downloading GUI Layout Toolbox with a MATLAB version 2016b or greater thats equipped with Curve Fitting Toolbox. The Statistics and Machine Learning Toolbox is required for Bayesian analysis, but not for peak fitting.
 
 GUI Layout Toolbox: https://www.mathworks.com/matlabcentral/fileexchange/47982-gui-layout-toolbox
+
+<b>LIPRAS is now in App Designer for MATLAB 2024b and above.</b>
+See: <a href="https://www.mathworks.com/matlabcentral/fileexchange/183300-line-profile-analysis-software-lipras">MATLAB File Exchange</a>
 
 **Stand-Alone Version (NO MATLAB NEEDED)**
 
